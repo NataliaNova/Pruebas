@@ -1,0 +1,16 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1em;
+  grid-template-rows: 200px;
+}
+
+.grid div {
+  background-color: skyblue;
+  color: rgb(1, 17, 34);
+  padding: 1em;
+}
+
+.griddiv: hover {
+  border: 1px black;
+}

@@ -1,0 +1,25 @@
+.flex {
+  display: flex;
+  background-color: rgb(37, 105, 194);
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 10px;
+  flex-direction: unset;
+}
+
+.flex div {
+  background-color: rgb(165, 201, 235);
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border: 2px solid black;
+}
+
+@media (max-width: 600px) {
+  :.flex  {
+    background-color: red;
+  }
+}
